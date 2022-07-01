@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import <TMComponentKitSDK/TMComponentKitSDK.h>
-//#import <TMSDK/TMSDK.h>
+#import <TMComponentKitSDK/TMComponentKitSDK.h>
+#import <TMSDK/TMSDK.h>
 
 
 @interface QYViewController : UIViewController

@@ -4,3 +4,8 @@ framework module QYTestSDK {
   export *
   module * { export * }
 }
+
+module QYTestSDK.Swift {
+    header "QYTestSDK-Swift.h"
+    requires objc
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYTestSDK'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '测试项目'
   s.homepage         = 'https://github.com/q1019736727/QYTestSDKSpec'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   s.source_files = 'QYTestSDK/QYTestSDK.framework/Headers/*.{h,swift}'
   s.ios.vendored_frameworks = 'QYTestSDK/QYTestSDK.framework'
   s.requires_arc = true
-  #s.swift_versions = '5.0'
+  s.swift_versions = '5.0'
   s.frameworks = 'UIKit', 'Foundation'
-  #s.dependency 'TMComponentKitSDK'
-  #s.dependency 'Alamofire'
-  #s.dependency 'TMSDK'
+  s.dependency 'TMComponentKitSDK'
+  s.dependency 'Alamofire'
+  s.dependency 'TMSDK'
   s.xcconfig = {
       'VALID_ARCHS' =>  'armv7 x86_64 arm64',
   }
