@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYTestSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '测试项目'
   s.homepage         = 'https://github.com/q1019736727/QYTestSDKSpec'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
