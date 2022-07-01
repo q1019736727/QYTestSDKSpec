@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYTestSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '测试项目'
   s.homepage         = 'https://github.com/q1019736727/QYTestSDKSpec'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #s.dependency 'Alamofire'
   #s.dependency 'TMSDK'
   s.xcconfig = {
-      'VALID_ARCHS' =>  'x86_64 arm64',
+      'VALID_ARCHS' =>  'armv7 x86_64 arm64',
   }
   #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
