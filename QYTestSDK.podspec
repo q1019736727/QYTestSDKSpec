@@ -8,15 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYTestSDK'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = '测试项目'
   s.homepage         = 'https://github.com/q1019736727/QYTestSDKSpec'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qiuyong' => '1837060380@qq.com' }
   s.source           = { :git => 'https://github.com/q1019736727/QYTestSDKSpec.git', :tag => s.version }
   s.platform     = :ios
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '9.0'
+  #依赖三方静态库
+  #s.static_framework = true
   s.source_files = 'QYTestSDK/QYTestSDK.framework/Headers/*.{h,swift}'
   s.ios.vendored_frameworks = 'QYTestSDK/QYTestSDK.framework'
   s.requires_arc = true
